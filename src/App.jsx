@@ -8,7 +8,7 @@ import Routing from './Routing'
 // import Product from './components/Product/Product'
  import { Type } from './Utility/action.type'
  import { auth } from './Utility/firebase'
-import { DataContext } from './components/DataProvider/DataProvider'
+ import { DataContext } from './components/DataProvider/DataProvider'
 
 
 function App() {
