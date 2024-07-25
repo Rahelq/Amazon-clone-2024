@@ -34,7 +34,7 @@ const decrement = (id)=>{
              <h3>Your shoping basket</h3>
              <hr />
              {
-              basket?.length==0?(<p>Opps! No item in your cart</p>):(
+              basket?.length==0?(<p>Oops! No item in your cart</p>):(
                 basket?.map((item, i)=>{
                   return  <section className={classes.cart_product}>
                    <ProductCard 
