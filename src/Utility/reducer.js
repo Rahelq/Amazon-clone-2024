@@ -7,12 +7,7 @@ export const initialState = {
 export const reducer = (state, action)=>{
      switch (action.type) {
         case Type.ADD_TO_BASKET:         
-            // return {
-            //     ...state,   //by keeping the state
-            //      basket:[...state.basket, action.item]  //keep the initial state.basket and add action.item
-            // } 
-            // break;            
-            //ckeck if the item exists
+           
         const existingItem = state.basket.find((item)=>item.id === action.item.id);
           if(!existingItem){
             return {
